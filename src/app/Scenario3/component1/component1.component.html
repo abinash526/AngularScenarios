@@ -1,0 +1,4 @@
+<!-- <p>component1 works!</p> -->
+<input #mytext type="text">
+<button (click)="onClick(mytext.value)">Send Data To Child</button>
+<app-component2 [parentData]="name"></app-component2>
